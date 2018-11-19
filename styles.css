@@ -1,0 +1,198 @@
+.nav_bar {
+  position: fixed;
+  background: #40e0d0;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.nav_item {
+  max-width: 100px;
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+  float: right;
+  min-height: 50px;
+  padding-top: 8px;
+    /* margin-right: 5px; */
+}
+
+.dropdown {
+  position: absolute;
+  max-width: 100px;
+  margin-left: 1550px;
+  z-index: 2;
+}
+
+.dropbtn {
+  min-height: 50px;
+}
+
+.dropdown-menu {
+  z-index: 15000;
+}
+
+.lat {
+  width: 20%;
+  text-align: center;
+  color: #eee;
+  position: absolute;
+}
+
+.central{
+  position: relative;
+  background-color: lightgrey;
+  height: 850px;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.summary{
+  position: absolute;
+  background-color: white;
+  height: 630px;
+  width: 950px;
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 10px;
+}
+
+.visualizations{
+  position: absolute;
+  background-color: white;
+  height: 570px;
+  width: 500px;
+  margin-top: 100px;
+  margin-right: 150px;
+  margin-left: 1250px;
+}
+
+.summary h1{
+  position: relative;
+  color: #40e0d0;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.visualizations h3{
+  position: relative;
+  color: #40e0d0;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.foot{
+  position: relative;
+  background-color: grey;
+  border-style: solid;
+  border-top-width: 5px;
+  border-top-color: #40e0d0;
+}
+
+.foot h6{
+  color: white;
+  text-align: center;
+}
+
+.images img{
+  display: in-inline-block;
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
+}
+
+.images2 img{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
+}
+
+.summary #fig img{
+  float: left;
+  height: 250px;
+  width: 250px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.summary #fig1 img{
+  float: left;
+  height: 400px;
+  width: 500px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.summary #fig2 img{
+  float: left;
+  height: 400px;
+  width: 500px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.summary #fig3 img{
+  float: left;
+  height: 400px;
+  width: 500px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.summary #fig4 img{
+  float: left;
+  height: 400px;
+  width: 500px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.summary summ_text{
+  float: right;
+}
+
+#paragraph{
+  font-family: 'Lucida Console';
+  font-size: 25px;
+}
+
+#paragraph_temp{
+  font-family: 'Lucida Console';
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+#paragraph_hum{
+  font-family: 'Lucida Console';
+  font-size: 25px;
+  padding-top: 40px;
+}
+
+#paragraph_cloud{
+  font-family: 'Lucida Console';
+  font-size: 25px;
+  padding-top: 40px;
+}
+
+#paragraph_wind{
+  font-family: 'Lucida Console';
+  font-size: 25px;
+  padding-top: 40px;
+}
+
+.row img{
+  height:410px;
+  width:800px;
+  margin-top:11px;
+  margin-left:50px;
+}
+
+.central_data table{
+  position: relative;
+  background-color: lightgrey;
+  height: 100%;
+  margin-top: 50px;
+}
